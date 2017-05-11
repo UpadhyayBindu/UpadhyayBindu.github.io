@@ -28,3 +28,5 @@ At this point, I wanted to see how many campaigns raised more than what they exp
 Here is the graph:
 
 ![alt text](https://github.com/UpadhyayBindu/Kickstarterdataanalysis/blob/master/successmeasure.png "Success Measure")
+
+Next is the scatterplot with pledged vs goal amount. 
