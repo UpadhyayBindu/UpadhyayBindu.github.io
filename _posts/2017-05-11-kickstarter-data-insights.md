@@ -27,7 +27,6 @@ At this point, I wanted to see how many campaigns raised more than what they exp
 
 Here is the graph:
 
-<!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
