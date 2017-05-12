@@ -33,11 +33,11 @@ At this point, I wanted to see how many campaigns raised more than what they exp
 
 Here is the graph:
 
-![alt text](/images/successmeasure.png)
+![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/successmeasure.png)
 
 Next is the scatterplot with pledged vs goal amount. This is how the graph looks:
 
-![alt text](/images/goalvspledged1.png)
+![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/goalvspledged1.png)
 
 As you can see, there are lot of outliers. I cleaned the data and here are some more images.
 
@@ -45,25 +45,31 @@ As you can see, there are lot of outliers. I cleaned the data and here are some 
 
 If goal<10000000 & pledged<10000000, then we eliminate 67 campaigns.
 
-
-![alt text](/images/goalvspledged2.png)
+![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/goalvspledged2.png)
 
 ### Limiting goal and pledged to 1,000,000 USD
 
+![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/goalvspledged3.png)
 
 ### Graph of Pledged amount vs Average amount per backer
 ![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/pledgedvsavgbacker3.png)
 
 #### Limiting pledged amount to 1,000,000 USD and average per backer to 3000 USD:
 
-![alt text](/images/pledgedvsavgbacker2.png)
+![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/pledgedvsavgbacker2.png)
 
+## Words used most often in the title text
+![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/titletext1.png)
+
+## Words used most often in the blurb text
+
+![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/textblurb1.png)
 
 ## Some totals
 * Total number of backers = 23,688,868
 * Total number of campaigns = 1,73,026
-* Campaigns with pledged>goal = 76805
-* Campaigns with pledged<goal = 96221
+* Campaigns with pledged > goal = 76805
+* Campaigns with pledged < goal = 96221
 * Campaigns with no pledged amount = 23,557
 * Total pledged amount = $1,999,596,042
 * Average per backer = $84.4
