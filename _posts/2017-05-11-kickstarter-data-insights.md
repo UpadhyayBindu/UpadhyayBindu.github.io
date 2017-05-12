@@ -52,7 +52,7 @@ If goal<10000000 & pledged<10000000, then we eliminate 67 campaigns.
 
 
 ### Graph of Pledged amount vs Average amount per backer
-![alt text](/images/pledgedvsavgbacker3.png)
+![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/pledgedvsavgbacker3.png)
 
 #### Limiting pledged amount to 1,000,000 USD and average per backer to 3000 USD:
 
