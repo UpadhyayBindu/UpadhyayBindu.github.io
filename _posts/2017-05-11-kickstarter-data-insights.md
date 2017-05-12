@@ -33,7 +33,7 @@ At this point, I wanted to see how many campaigns raised more than what they exp
 
 Here is the graph:
 
-![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/successmeasure.png)
+![alt text](https://raw.githubusercontent.com/UpadhyayBindu/UpadhyayBindu.github.io/master/_posts/images/successmeasure.png)
 
 Next is the scatterplot with pledged vs goal amount. This is how the graph looks:
 
