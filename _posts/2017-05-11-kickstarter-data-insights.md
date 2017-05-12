@@ -37,7 +37,7 @@ Here is the graph:
 
 Next is the scatterplot with pledged vs goal amount. This is how the graph looks:
 
-![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/goalvspledged1.png)
+![alt text](https://raw.githubusercontent.com/UpadhyayBindu/UpadhyayBindu.github.io/master/_posts/images/goalvspledged1.png)
 
 As you can see, there are lot of outliers. I cleaned the data and here are some more images.
 
@@ -45,25 +45,25 @@ As you can see, there are lot of outliers. I cleaned the data and here are some 
 
 If goal<10000000 & pledged<10000000, then we eliminate 67 campaigns.
 
-![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/goalvspledged2.png)
+![alt text](https://raw.githubusercontent.com/UpadhyayBindu/UpadhyayBindu.github.io/master/_posts/images/goalvspledged2.png)
 
 ### Limiting goal and pledged to 1,000,000 USD
 
-![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/goalvspledged3.png)
+![alt text](https://raw.githubusercontent.com/UpadhyayBindu/UpadhyayBindu.github.io/master/_posts/images/goalvspledged3.png)
 
 ### Graph of Pledged amount vs Average amount per backer
-![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/pledgedvsavgbacker3.png)
+![alt text](https://raw.githubusercontent.com/UpadhyayBindu/UpadhyayBindu.github.io/master/_posts/images/pledgedvsavgbacker3.png)
 
 #### Limiting pledged amount to 1,000,000 USD and average per backer to 3000 USD:
 
-![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/pledgedvsavgbacker2.png)
+![alt text](https://raw.githubusercontent.com/UpadhyayBindu/UpadhyayBindu.github.io/master/_posts/images/pledgedvsavgbacker2.png)
 
 ## Words used most often in the title text
-![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/titletext1.png)
+![alt text](https://raw.githubusercontent.com/UpadhyayBindu/UpadhyayBindu.github.io/master/_posts/images/titletext1.png)
 
 ## Words used most often in the blurb text
 
-![alt text](https://github.com/UpadhyayBindu/UpadhyayBindu.github.io/blob/master/_posts/images/textblurb1.png)
+![alt text](https://raw.githubusercontent.com/UpadhyayBindu/UpadhyayBindu.github.io/master/_posts/images/textblurb1.png)
 
 ## Some totals
 * Total number of backers = 23,688,868
