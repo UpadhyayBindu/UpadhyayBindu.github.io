@@ -1,14 +1,14 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Youbee
+title:            Bindu
 tagline:          'An unknown'
-description:      'my website'
+description:      'One place to find my musings'
 url:              http://youbee.in
 baseurl:          /
 
