@@ -71,8 +71,8 @@ We also evaluated two other prototyping platforms:
 proto.io and uxpin. The learning curve was easier compared to axure, but the functionalities were limited. For a quick prototype, I would recommend you to try unpin as adding interactions was quite easy. It also had a lot of built in templates and icons.
 But to make a highly functional prototype, I would definitely use axure.
 
-Here is the link to our interactive prototype which you can open in your phone or laptop:[Click to try the prototype]
-(http://ixjlrx.axshare.com/page_overview.html)
+Here is the link to our interactive prototype which you can open in your phone or laptop:
+<http://ixjlrx.axshare.com/page_overview.html>
 Dimensions are set for iPhone 7.
 
 ## Learnings
