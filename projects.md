@@ -5,7 +5,7 @@ title: Projects
 
 #Projects
 
-Below are some of the projects I have done at the Department of Industrial Design, Eindhoven University of Technology. I am a postgraduate design trainee in the User System Interaction Programme.  Some more information about the USI programme can be found here.
+Below are some of the projects I have done at the Department of Industrial Design, Eindhoven University of Technology. I am a postgraduate design trainee in the User System Interaction Program.  Some more information about the USI program can be found here.
 
 User Onboarding for Eventix
 
