@@ -1,37 +1,196 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website1</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+</head>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<body>
+    <div>
+        <nav class="navbar navbar-default navigation-clean-button">
+            <div class="container">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Bindu Upadhyay</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active" role="presentation"><a href="#">About </a></li>
+                        <li role="presentation"><a href="#">Portfolio </a></li>
+                        <li role="presentation"><a href="#">Contact </a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Blog <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="#">First Item</a></li>
+                                <li role="presentation"><a href="#">Second Item</a></li>
+                                <li role="presentation"><a href="#">Third Item</a></li>
+                                <li role="presentation"><a href="#">Menu Item</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="navbar-text navbar-right actions">
+                        <a class="navbar-link login" href="#"> </a> <a class="btn btn-default action-button" role="button" href="#" style="background-color:#000000;">Resume </a></p>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div><img src="assets/img/USI_FullPortrait_0004_Bindu_1.jpg" style="width:200px;"></div>
+    <div>
+        <h2 class="text-center">UX Researcher and Designer</h2>
+        <p style="padding:20px;margin:10px;margin-left:50px;margin-right:50px;">I look at design as a means of bringing the latest technology to the society. With specialisations in both technology and user experience (UX), I have the ability to work at the intersection of design, technology and business. I love exploring
+            new ideas, working in a dynamic environment and challenging myself through my work. </p>
+        <h2 class="text-center">Skills </h2></div>
+    <div class="features-clean">
+        <div class="container">
+            <div class="intro"></div>
+            <div class="row features">
+                <div class="col-md-4 col-sm-6 item"><i class="fa fa-users icon" style="color:#3f3f40;"></i>
+                    <h3 class="name">Team player</h3>
+                    <p class="description">I am comfortable working in international and multi disciplinary teams of varied sizes. Good communication skills, agile approach and time management skills are my main tools for a smooth collaboration. </p>
+                </div>
+                <div class="col-md-4 col-sm-6 item"><i class="fa fa-line-chart icon" style="color:#3f3f40;"></i>
+                    <h3 class="name">Analytical thinking</h3>
+                    <p class="description"> My background in Engineering Design has drilled into me ananalytical approach to solving complex problems. While working at System Insights, I earned the name "bugs bindu" due to my keen eye for detail. </p>
+                </div>
+                <div class="col-md-4 col-sm-6 item"><i class="glyphicon glyphicon-time icon" style="color:#3f3f40;"></i>
+                    <h3 class="name">Quick learner</h3>
+                    <p class="description">Being a quick learner enables me to effectively execute projects in diverse domains such as medical devices, manufacturing, software, IoT. I am also a quick thinker which enables me to act spontaneously. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <div></div>
+    <div class="features-clean">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Design Methods</h2>
+                <p class="text-center">These are the methods that I have implemented in projects </p>
+            </div>
+            <div class="row features">
+                <div class="col-md-4 col-sm-6 item"><i class="fa fa-search icon" style="color:#3f3f40;"></i>
+                    <h3 class="name">User Research</h3>
+                    <p class="description">Contextual Task Analysis, Co-creation, Customer journey mapping, Personas, Applied research, Interviews</p>
+                </div>
+                <div class="col-md-4 col-sm-6 item"><i class="fa fa-pencil icon" style="color:#3f3f40;"></i>
+                    <h3 class="name">Prototyping </h3>
+                    <p class="description">Paper, Balsamiq, Axure RP, HTML/CSS, Processing, Arduino </p>
+                </div>
+                <div class="col-md-4 col-sm-6 item"><i class="glyphicon glyphicon-list-alt icon" style="color:#3f3f40;"></i>
+                    <h3 class="name">Product Management</h3>
+                    <p class="description">Agile framework, Workflows, Documentation, Stakeholder management, Strategic design</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="projects-horizontal">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Projects </h2></div>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="#"><img class="img-responsive" src="assets/img/desk.jpg"></a>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="name">User Onboarding </h3>
+                            <p class="description">Designed onboarding using principles of persuasion for Eventix.io</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="#"><img class="img-responsive" src="assets/img/building.jpg"></a>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="name">Infant warmer </h3>
+                            <p class="description">Designed a market ready product for Embrace Innovations by collaborating with multiple stakeholders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="#"><img class="img-responsive" src="assets/img/loft.jpg"></a>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="name">Dashoboard for Cardiologists</h3>
+                            <p class="description">Prototyped an interactive dashboard for DO Change EU project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="#"><img class="img-responsive" src="assets/img/minibus.jpeg"></a>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="name">Redesigned Splitwise</h3>
+                            <p class="description">Prototyped new interactions for the mobile app using Axure and following iOS deisgn guidelines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="highlight-clean">
+        <div class="container">
+            <div class="intro"></div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="#">RESUME </a><a class="btn btn-primary" role="button" href="#">Projects </a></div>
+        </div>
+    </div>
+    <div class="team-clean">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Hobbies</h2>
+                <p class="text-center">My hobbies have shaped me and help in my growth</p>
+            </div>
+            <div class="row people">
+                <div class="col-md-4 col-sm-6 item"><img class="img-circle" src="1.jpg">
+                    <h3 class="name">Running </h3>
+                    <p class="description">Running is a way of exploring. After running several half marathons, I decided to challenge myself and I am currently training for a Full Marathion. </p>
+                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-4 col-sm-6 item"><img src="assets/img/2.jpg">
+                    <h3 class="name">Painting </h3>
+                    <p class="description">I have been painting since my childhood. I also wrote, illustrated and self published a book "The Chubby Marigold"</p>
+                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-4 col-sm-6 item"><img class="img-circle" src="3.jpg">
+                    <h3 class="name">Writing </h3>
+                    <p class="description">I am an avid reader and this also helps me write. I have maintained a blog where I write about my experiences. </p>
+                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects </a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog </a></li>
+                <li><a href="#">Contact </a></li>
+            </ul>
+            <p class="copyright">Bindu © 2017</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+</html>
